@@ -1,9 +1,9 @@
-####--------------------------------------------------------------------------------
-####5月3日申明：coding已经开启了刷码币的检测，使用本脚本造成的任何损失，本人概不负责！
-####5月10日申明：coding已经关闭了大多数日常任务的码币奖励，至此，本脚本仅供学习！
-####--------------------------------------------------------------------------------
-#Coding小蜘蛛
-##主要功能
+```
+5月3日申明：coding已经开启了刷码币的检测，使用本脚本造成的任何损失，本人概不负责！
+5月10日申明：coding已经关闭了大多数日常任务的码币奖励，至此，本脚本仅供学习！
+```
+# Coding小蜘蛛
+## 主要功能
 * 自动登录coding
 * 自动创建项目
 * 自动创建分支
@@ -14,17 +14,17 @@
 * 自动修改生日，0.1码币（默认关闭）（一次有效）
 * 自动关注作者（默认关闭）
 
-##使用说明
+## 使用说明
 1、请将本目录下的.coding.config文件复制到用户*主目录*<br>
 2、在配置文件中填入账号密码，保证json格式正确即可<br>
 3、在命令行中执行coding_spider.py -h查看帮助<br>
 
-##演示平台
+## 演示平台
 http://codingspider.coding.io/spider?username=xx@xx.com&password=yourpassword<br>
 访问此URL并带上您的账号密码可以快速完成码币任务<br>
 郑重承诺：本程序不会保存任何账号密码，请放心使用，密码可用sha1加密后再填入<br>
 
-##本地演示平台搭建(linux)
+## 本地演示平台搭建(linux)
 1、安装virtualenv<br>
 使用easy_install安装pip<br>
 $ sudo easy_install pip<br>
@@ -41,7 +41,7 @@ $ gunicorn hello:app<br>
 
 访问 http://localhost:8000 查看效果。
 
-##本地演示平台搭建(windows)
+## 本地演示平台搭建(windows)
 1、安装easy_install<br>
 ```
 cd至python目录
@@ -62,4 +62,4 @@ $ venv/bin/activate.bat<br>
 $ pip install -r requirements.txt<br>
 $ python hello.py<br>
 
-
+本项目同时托管在[Github.com](https://github.com/ookcode/CodingSpider)与[Coding.net](https://coding.net/u/ookcode/p/CodingSpider/git)中
